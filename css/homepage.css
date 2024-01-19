@@ -3,3 +3,8 @@
   margin: 10px;
   max-width: 500px;
 }
+
+.toast-photo {
+  width: 200px;
+  height: auto; /* To maintain the aspect ratio */
+}
