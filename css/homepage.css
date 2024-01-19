@@ -5,6 +5,6 @@
 }
 
 .toast-photo {
+  margin: 10px;
   width: 200px;
-  height: auto; /* To maintain the aspect ratio */
 }
