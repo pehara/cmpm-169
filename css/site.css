@@ -1,17 +1,17 @@
 #links a {
-  color: antiquewhite;
+  color: rgb(70, 36, 30);
 }
 #content {
   margin: 10px;
   padding: 10px;
-  border: solid 1px rgb(220, 215, 206);
-  background-color: rgb(70, 36, 30); /* Set the background color to brown */
-  color: rgb(228, 223, 213); /* Set the text color to cream */
+  border: solid 1px rgb(70, 36, 30);
+  background-color: rgb(233, 213, 174); /* Set the background color to brown */
+  color: rgb(70, 36, 30); /* Set the text color to cream */
 }
 
 .minor-section {
   padding: 10px;
-  border: solid 1px rgb(220, 215, 206);
-  background-color: rgb(70, 36, 30); /* Set the background color to brown */
-  color: rgb(228, 223, 213); /* Set the text color to cream */
+  border: solid 1px rgb(233, 213, 174);
+  background-color: rgb(233, 213, 174); /* Set the background color to brown */
+  color: rgb(70, 36, 30); /* Set the text color to cream */
 }
