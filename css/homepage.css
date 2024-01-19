@@ -1,5 +1,10 @@
 
 .cat-photo {
   margin: 10px;
+  max-width: 100px;
+}
+
+.me-photo {
+  margin: 10px;
   max-width: 500px;
 }
