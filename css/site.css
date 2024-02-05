@@ -1,17 +1,43 @@
 #links a {
-  color: rgb(70, 36, 30);
+  text-align: center;
+  color: #ddd2d0;
+  /* background: transparent url('../img/bread_title.png')  50% no-repeat; */
 }
 #content {
-  margin: 10px;
-  padding: 10px;
-  border: solid 1px rgb(70, 36, 30);
-  background-color: rgb(233, 213, 174); /* Set the background color to brown */
-  color: rgb(70, 36, 30); /* Set the text color to cream */
+  text-align: center;
+  margin: 30px;
+  padding: 100px;
+  /* border: solid 1px rgb(70, 36, 30); */
+  /* background-color: rgb(64, 31, 24); Set the background color to brown */
+  /* background-image: url("../img/background.jpg"); */
+  color: #ddd2d0;
 }
 
 .minor-section {
+  text-align: center;
   padding: 10px;
-  border: solid 1px rgb(233, 213, 174);
-  background-color: rgb(233, 213, 174); /* Set the background color to brown */
-  color: rgb(70, 36, 30); /* Set the text color to cream */
+  /* border: solid 1px rgb(124, 47, 24); */
+  /* background: transparent url('../img/bread_title.png')  center 200% no-repeat; */
+  color: rgb(245, 237, 236); /* Set the text color to cream */
+}
+
+.toast-section {
+  background: transparent url('../img/bread_title.png')  50% no-repeat;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('../img/background.jpg');
+  background-size: cover;
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
 }

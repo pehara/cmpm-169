@@ -11,24 +11,35 @@
   object-fit: cover;
 }
 
-.bread-title {
-  position: absolute;
+/* .bread-title {
+  position: relative;
+  left: 300px;
   margin: -8px;
   width: 600px;
   z-index: 0;
   display: block;
   position: relative;
-}
+} */
 
 h1 {
-  position: absolute;
-  top: 50px; 
-  left: 45px;
+  /* background-image: url('../img/bread_title.png'); */
+  background: transparent url('../img/bread_title.png') center top/70% no-repeat;
+  background-attachment: fixed;
+  position: relative;
   z-index: 1;
   color: rgb(70, 36, 30);
-  background: transparent; 
   padding: 10px; 
   margin: 0; 
   font-size: 35px;
 }
 
+h2 {
+  background: transparent url('../img/bread_title.png')  50% no-repeat;
+  color: rgb(70, 36, 30);
+}
+
+h3 {
+  background: transparent url('../img/bread_title.png')  50% no-repeat;
+  color: rgb(70, 36, 30);
+
+}
