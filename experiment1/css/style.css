@@ -17,3 +17,13 @@ body {
     width: 100%;
     height: 600px;
 }
+
+body {
+    padding: 1in;
+}
+
+/* Set all images to have a width of 400px */
+img {
+    width: 400px;
+    height: auto; /* maintain aspect ratio */
+}
